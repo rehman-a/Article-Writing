@@ -1,0 +1,627 @@
+/* CSS For Nav Bar */
+.navbtn {
+    background-color: #FFC973;
+    color: #595959;
+    border-radius: 10px;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+    transition: background-color 1s ease;
+    /* Added transition property */
+    transition: color 1s ease;
+}
+
+.navbtn:hover {
+    background-color: #ffb339;
+    color: #ffffff;
+}
+
+
+.nav-link {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 13px;
+    /* identical to box height */
+
+
+    color: #595959;
+}
+
+.nav-link:hover {
+    color: #FFC973;
+}
+
+/* CSS Ends for Nav Bar */
+
+/* CSS for section1  */
+
+.section1-cont {
+    margin-left: auto;
+}
+
+.row h2 {
+    width: 100%;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: normal;
+    line-height: 30px;
+    background: linear-gradient(to right, #3D80A9, #E38731);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.row h4 {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+
+/*  CSS FOR SECTION1 ENDS */
+
+
+/* CSS FOR SECTION 2 STARTS FROM HERE */
+.section2 {
+    background-color: #283646;
+    ;
+    color: white;
+    border-radius: 5px;
+}
+
+.section2 h1 {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: normal;
+    line-height: 30px;
+    padding: 10px;
+    text-align: center;
+    margin: 0px;
+
+
+}
+
+
+
+/* CSS for PlaceOrder File */
+.placeOrder h1 {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 29px;
+
+    color: #18173E;
+}
+
+.first {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 60px;
+    /* identical to box height */
+
+
+    color: #FFC973;
+}
+
+.first-Guide {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+}
+
+.first-desc {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+
+    color: rgba(89, 89, 89, 0.85);
+
+}
+
+
+/* PlaceOrder CSS ends here */
+
+/* Why Us CSS starts from here */
+
+
+
+/*Why Us CSS ends here */
+
+
+
+/* Sub CSS starts from here */
+
+.first-sub {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 60px;
+    /* identical to box height */
+
+
+    color: #FFC973;
+
+}
+
+.sub-row1 {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.sub-row2 h1 {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+
+
+    color: #ffffff;
+}
+
+.button-sub {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 5px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.input-field {
+    border: none;
+    background-color: transparent;
+    padding: 5px;
+    width: 250px;
+    height: auto;
+    color: white;
+}
+
+.button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #FFC973;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-left: 1px solid white;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 13px;
+    /* identical to box height */
+
+
+    color: #595959;
+}
+
+.button:hover {
+    background-color: #ffb339;
+    color: #ffffff;
+}
+
+/*Sub CSS ends here */
+
+
+
+/*About CSS Starts here */
+
+.card {
+    border: 2px solid rgb(201, 201, 201);
+    padding: 10px;
+    text-align: center;
+}
+
+.logo {
+    margin-bottom: 10px;
+}
+.description{
+    font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* or 150% */
+
+text-align: center;
+
+color: rgba(0, 0, 0, 0.65);
+}
+
+.spanstyle{
+    font-family: 'League Spartan';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: rgba(0, 0, 0, 0.75);
+}
+
+
+/*AboutCSS ends here */
+
+
+
+/* Footer CSS starts from here */
+
+.container-fluid-footer{
+    width: 100%;
+    background-color: #283646;
+}
+
+
+.footer-row2 h1{
+
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+
+
+    color: #ffffff;
+    
+}
+
+
+
+.footer-navi{
+    font-family: 'League Spartan';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: rgba(255, 255, 255, 0.8);
+
+}
+
+.footer-navi1 h3{
+    font-family: 'League Spartan';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 17px;
+padding-left: 10px;
+/* identical to box height */
+border-right: 4px solid #ffb339;
+
+color: rgba(255, 255, 255, 0.8);
+
+}
+.footer-navi11 h3{
+    font-family: 'League Spartan';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 17px;
+padding-left: 10px;
+/* identical to box height */
+
+
+color: rgba(255, 255, 255, 0.8);
+
+}
+
+
+
+
+/* Footer CSS Ends */
+
+
+
+/* Medai query to center contents for screen resolutions below 767 */
+
+@media (max-width: 767px) {
+    .center-content {
+      text-align: center;
+      justify-content: center;
+    }
+    .footer-navi1 h3{
+        border-right: none !important;
+    }
+    .center-content{
+        text-align: center;
+        justify-content: center;
+
+    }
+  }
+
+
+
+
+
+
+/* CSS for Order Page */
+
+.placeOrder h2{
+    width: 100%;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: normal;
+    line-height: 30px;
+    background: linear-gradient(to right, #3D80A9, #E38731);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+.orderspan{
+    font-family: 'League Spartan';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 18px;
+
+color: #18173E;
+
+}
+
+.order-first {
+    font-family: 'League Spartan';
+font-style: normal;
+font-weight: 600;
+font-size: 45px;
+line-height: 41px;
+
+color: #F6AA3D;
+}
+
+.text-center.active {
+    background: #FFFFFF;
+box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+border-radius: 6px;
+  }
+
+.order-form{
+    font-family: 'League Spartan';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: rgba(0, 0, 0, 0.85);
+}
+
+.dropdown {
+    position: relative;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+  }
+  
+  .dropdown select {
+    width: 100%;
+    height: 30px;
+    border: none;
+    outline: none;
+    appearance: none;
+    padding-right: 20px;
+  }
+  
+  .dropdown::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 6px 0 6px;
+    border-color: #000000 transparent transparent transparent;
+  }
+
+  .input-field-order {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: #000000;
+    width: 100%;
+    
+
+  }
+  .text-area {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: #000000;
+    width: 100%;
+    height: 150px;
+    
+  }
+
+  .custom-file-input {
+    display: none;
+  }
+
+  .custom-file-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    border-style: dotted;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: #000000;
+  }
+
+  .pages-order{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: #000000;
+  }
+
+  .upload-container {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    border-style: dotted;
+    padding: 8px;
+    color: #edebeb;
+    text-align: center;
+  }
+  .upload-container input[type="file"] {
+    display: none;
+  }
+  .upload-container label {
+    cursor: pointer;
+  }
+  .upload-container img {
+    object-fit: contain;
+  }
+
+
+
+  /* CSS  FOR SIGNIN PAGE STARTS HERE */
+
+.signin-page{
+    margin-bottom: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+/* CSS FOR ABOUT US PAGE STARTS FROM HERE */
+
+.aboutHeading{
+    width: 30%;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: normal;
+    line-height: 30px;
+    background: linear-gradient(to right, #3D80A9, #E38731);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.aboutPara1{
+font-family: 'League Spartan';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+/* or 156% */
+
+
+color: rgba(0, 0, 0, 0.85);
+}
+
+.aboutPara2{
+    
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 25px;
+/* or 208% */
+
+text-align: justify;
+
+color: rgba(0, 0, 0, 0.75);
+}
+
+.aboutValues{
+    font-family: 'League Spartan';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height, or 125% */
+
+
+color: rgba(0, 0, 0, 0.85);
+
+}
+
+.aboutValueText{
+    font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 25px;
+/* identical to box height, or 208% */
+
+text-align: justify;
+
+color: rgba(0, 0, 0, 0.75);
+}
+
+
+
+
+
+
+
+
+.sendUsMessage{
+    width: 50%;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: normal;
+    line-height: 30px;
+    background: linear-gradient(to right, #3D80A9, #E38731);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

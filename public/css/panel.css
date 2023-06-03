@@ -1,0 +1,411 @@
+/* CSS for Side Bar */
+.side-color{
+    background-color: #283646;
+}
+
+.welcome-back{
+    font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: justify;
+
+color: #FFFFFF;
+}
+
+.user-name{
+    font-family: 'League Spartan';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.dashboard-category {
+    position: relative;
+    border-radius: 6px;
+    background-color: transparent;
+    transition: background-color 0.7s ease;
+  }
+
+  .dashboard-category:hover {
+    background-color: #314357;
+  }
+
+.dashboard-text{
+    font-family: 'League Spartan';
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+
+/* CSS FOR Heading Dashboard */
+.dashbaord-heading{
+    font-family: 'League Spartan';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 29px;
+
+color: #395E69;
+}
+
+.navbtn {
+    background-color: #FFC973;
+    color: #595959;
+    border-radius: 10px;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+    transition: background-color 1s ease;
+    /* Added transition property */
+    transition: color 1s ease;
+}
+
+.navbtn:hover {
+    background-color: #ffb339;
+    color: #ffffff;
+}
+
+.card-borders{
+    background: #FFFFFF;
+box-shadow: 0px 0px 8px 6px rgba(255, 201, 115, 0.1);
+border-radius: 10px;
+}
+
+.active-orders{
+    font-family: 'League Spartan';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 18px;
+
+color: rgba(0, 0, 0, 0.65);
+}
+
+
+.active-orders-numbers h1{
+    font-family: 'League Spartan';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 55px;
+
+color: rgba(0, 0, 0, 0.75);
+}
+
+.table-head{
+    background: #314357;
+border-radius: 6px;
+font-family: 'League Spartan';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+td{
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    
+    color: rgba(89, 99, 119, 0.8);
+}
+
+
+
+
+hr {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  }
+
+
+
+  /* SIDE BAR CSS FROM ONLINE WEBSITE */
+    @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+    
+    :root {
+        --header-height: 3rem;
+        --nav-width: 80px;
+        --first-color: #4723D9;
+        --first-color-light: #AFA5D9;
+        --white-color: #F7F6FB;
+        --body-font: 'Nunito', sans-serif;
+        --normal-font-size: 1rem;
+        --z-fixed: 100;
+    }
+    
+    *,
+    ::before,
+    ::after {
+        box-sizing: border-box;
+    }
+    
+    body {
+        position: relative;
+        margin: var(--header-height) 0 0 0;
+        padding: 0 1rem;
+        font-family: var(--body-font);
+        font-size: var(--normal-font-size);
+        transition: .5s;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .header {
+        width: 100%;
+        height: var(--header-height);
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1rem;
+        background-color: var(--white-color);
+        z-index: var(--z-fixed);
+        transition: .5s;
+        transition: left 0.3s ease;
+    }
+    
+    
+    .header-expanded {
+        left: 7%;
+    }
+    
+    .header_toggle {
+        color: var(--first-color);
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+    
+    .header_img {
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    
+    .header_img img {
+        width: 40px;
+    }
+    
+    .l-navbar {
+        position: fixed;
+        top: 0;
+        left: -30%;
+        width: var(--nav-width);
+        height: 100vh;
+        background-color: #283646;
+        padding: .5rem 1rem 0 0;
+        transition: .5s;
+        z-index: var(--z-fixed);
+    }
+    
+    .nav {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    
+    .nav_logo,
+    .nav_link {
+        display: grid;
+        border-radius: 6px;
+        grid-template-columns: max-content max-content;
+        align-items: center;
+        column-gap: 1rem;
+        padding: .5rem 0 .5rem 1.5rem;
+    }
+    .nav_link:hover{
+        background-color: #314357;
+    }
+    
+    .nav_logo {
+        margin-bottom: 2rem;
+    }
+    
+    .nav_logo-icon {
+        font-size: 1.25rem;
+        color: var(--white-color);
+    }
+    
+    .nav_logo-name {
+        color: var(--white-color);
+        font-weight: 700;
+    }
+    
+    .nav_link {
+        position: relative;
+        color: var(--first-color-light);
+        margin-bottom: 1.5rem;
+        transition: .3s;
+    }
+    
+    .nav_link:hover {
+        color: var(--white-color);
+    }
+    
+    .nav_icon {
+        font-size: 1.25rem;
+    }
+    
+    .show {
+        left: 0;
+    }
+    .body-pd {
+        padding-left: calc(var(--nav-width) + 1rem);
+    }
+    
+    .active {
+        color: var(--white-color);
+    }
+    
+    .active::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        width: 2px;
+        height: 32px;
+        background-color: var(--white-color);
+    }
+    
+    .height-100 {
+        height: 100vh;
+    }
+    
+    @media screen and (min-width: 768px) {
+        body {
+            margin: calc(var(--header-height) + 1rem) 0 0 0;
+            padding-left: calc(var(--nav-width) + 2rem);
+        }
+        
+        .header {
+            height: calc(var(--header-height) + 1rem);
+            padding: 0 2rem 0 calc(var(--nav-width) + 2rem);
+        }
+        
+        .header_img {
+            width: 40px;
+            height: 40px;
+        }
+        
+        .header_img img {
+            width: 45px;
+        }
+        
+        .l-navbar {
+            left: 0;
+            padding: 1rem 1rem 0 0;
+        }
+        
+        .show {
+            width: calc(var(--nav-width) + 156px);
+        }
+        
+        .body-pd {
+            padding-left: calc(var(--nav-width) + 188px);
+        }
+    }
+    
+    
+    .nav_name {
+        display: flex;
+        align-items: center;
+    }
+    
+    .dashboard-text {
+        margin-left: 2rem;
+    }
+
+    .body-pd-expanded {
+        padding-left: 260px;
+    }
+
+
+/* Panel Settings CSS starts from here */
+
+.profile-heading{
+    
+font-family: 'League Spartan';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 29px;
+
+color: #395E69;
+}
+
+.user-name-setting{
+    font-family: 'League Spartan';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: justify;
+
+color: rgba(0, 0, 0, 0.75);
+
+}
+
+.left-summary{
+    font-family: 'League Spartan';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: rgba(0, 0, 0, 0.65);
+}
+
+.right-summary{
+    font-family: 'League Spartan';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: rgba(0, 0, 0, 0.8);
+}
+
+
+.shadow-class{
+    background: #FFFFFF;
+box-shadow: 0px 0px 8px 6px rgba(255, 201, 115, 0.1);
+border-radius: 10px;
+}
